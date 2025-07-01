@@ -1,6 +1,3 @@
-
-
-```markdown
 # FocusTrack Lite 🧠⏱️
 
 **FocusTrack Lite** is a lightweight web-based Pomodoro-style productivity timer. It helps users stay focused by timing their work sessions and tracking their progress over time — all stored locally or with a custom Node.js backend (no Express!).
