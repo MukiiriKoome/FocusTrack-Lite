@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusTrackLite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class='container'>
+        <div class="header">
+            <h1>FocusTrack Lite</h1>
+        </div>
+        <div class="timer">
+            <h2 id="timer">25:00</h2>
+        </div>
+        <div class='buttons'>
+            <button class="start" id="startBtn">Start</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+        <div class="stats">
+            <p>You focussed for <span id="sessionCount">0</span> sessions today (<span id="totalMinutes">0</span>) mins</p>
+                <div class="recent">
+                    <p class="paraID">Recent:</p>
+                    <ul id="sessionList">
+                        <!-- Javascript will inject the sessions here dynamically -->
+                    </ul>
+                </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
